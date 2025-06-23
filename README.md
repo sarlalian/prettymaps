@@ -71,7 +71,7 @@ import prettymaps
 plot = prettymaps.plot('Stad van de Zon, Heerhugowaard, Netherlands')
 ```
 
-    Fetching geodataframes took 13.76 seconds
+    Fetching geodataframes took 12.74 seconds
 
 
 
@@ -94,7 +94,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 4.71 seconds
+    Fetching geodataframes took 5.99 seconds
 
 
 
@@ -369,7 +369,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 28.29 seconds
+    Fetching geodataframes took 28.28 seconds
 
 
 
@@ -393,7 +393,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 10.83 seconds
+    Fetching geodataframes took 13.82 seconds
 
 
 
@@ -413,7 +413,7 @@ plot = prettymaps.plot('Centro Histórico, Porto Alegre', show = False)
 plot.geodataframes['building']
 ```
 
-    Fetching geodataframes took 11.94 seconds
+    Fetching geodataframes took 12.82 seconds
 
 
 
@@ -788,7 +788,7 @@ for ax,building in zip(np.concatenate(axes),buildings):
     ax.autoscale(); ax.axis('off'); ax.axis('equal')
 ```
 
-    Fetching geodataframes took 12.50 seconds
+    Fetching geodataframes took 12.28 seconds
 
 
 
@@ -819,7 +819,7 @@ _ = plot.ax.set_title(
 )
 ```
 
-    Fetching geodataframes took 12.74 seconds
+    Fetching geodataframes took 11.94 seconds
 
 
 Use **plotter** mode to export a pen plotter-compatible SVG (thanks to abey79's amazing [vsketch](https://github.com/abey79/vsketch) library)
@@ -838,7 +838,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 3.91 seconds
+    Fetching geodataframes took 3.99 seconds
 
 
 
@@ -862,7 +862,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 26.94 seconds
+    Fetching geodataframes took 27.47 seconds
 
 
 
@@ -963,13 +963,13 @@ plot = prettymaps.multiplot(
 )
 ```
 
-    Fetching geodataframes took 8.62 seconds
+    Fetching geodataframes took 8.40 seconds
 
 
-    Fetching geodataframes took 5.93 seconds
+    Fetching geodataframes took 6.57 seconds
 
 
-    Fetching geodataframes took 8.74 seconds
+    Fetching geodataframes took 8.01 seconds
 
 
 
@@ -997,7 +997,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 47.61 seconds
+    Fetching geodataframes took 46.80 seconds
 
 
     make: Entering directory '/home/runner/work/prettymaps/prettymaps/notebooks/SRTM1'
@@ -1014,11 +1014,11 @@ plot = prettymaps.plot(
     gdalbuildvrt -q -overwrite SRTM1.vrt cache/N21/N21W158.tif
     make: Leaving directory '/home/runner/work/prettymaps/prettymaps/notebooks/SRTM1'
     make: Entering directory '/home/runner/work/prettymaps/prettymaps/notebooks/SRTM1'
-    cp SRTM1.vrt SRTM1.286507e05dd14c97a364976914d44158.vrt
+    cp SRTM1.vrt SRTM1.3c6f26feda47454b8e5fcad6614251a5.vrt
     make: Leaving directory '/home/runner/work/prettymaps/prettymaps/notebooks/SRTM1'
     make: Entering directory '/home/runner/work/prettymaps/prettymaps/notebooks/SRTM1'
-    gdal_translate -q -co TILED=YES -co COMPRESS=DEFLATE -co ZLEVEL=9 -co PREDICTOR=2 -projwin -157.90125854957773 21.364471426268267 -157.81006761682832 21.244615177105388 SRTM1.286507e05dd14c97a364976914d44158.vrt /home/runner/work/prettymaps/prettymaps/notebooks/elevation.tif
-    rm -f SRTM1.286507e05dd14c97a364976914d44158.vrt
+    gdal_translate -q -co TILED=YES -co COMPRESS=DEFLATE -co ZLEVEL=9 -co PREDICTOR=2 -projwin -157.90125854957773 21.364471426268267 -157.81006761682832 21.244615177105388 SRTM1.3c6f26feda47454b8e5fcad6614251a5.vrt /home/runner/work/prettymaps/prettymaps/notebooks/elevation.tif
+    rm -f SRTM1.3c6f26feda47454b8e5fcad6614251a5.vrt
     make: Leaving directory '/home/runner/work/prettymaps/prettymaps/notebooks/SRTM1'
 
 
@@ -1052,7 +1052,7 @@ plot = prettymaps.plot(
 )
 ```
 
-    Fetching geodataframes took 18.23 seconds
+    Fetching geodataframes took 20.11 seconds
 
 
 
